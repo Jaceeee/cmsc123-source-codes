@@ -1,0 +1,95 @@
+
+
+(1)for (int i = 1; i <= 10; i++) {
+    a = 2 * b;
+}
+
+(2)for (int i = 5; i <= 10; i++) {
+    b += a;
+    a--;
+}
+
+(3)for (int i = 1; i <= n; i++) {
+    a = b + c + f;
+    b += a;
+    a--;
+}
+
+(4)for (int i = 7; i <= n; i++) {
+    b *= 3 + c;
+    b += a;
+    a--;
+}
+
+(5)for (int i = 1; i <= n; i *= 2) {
+    b += a;
+    a--;
+    a = b + c + f;
+}
+
+(6)for (int i = 1; i <= n; i *= 5) {
+    a = 2 * b;
+    a = a + c + f;
+    b *= 3 + c;
+    b += a;
+    a--;
+}
+
+(7)for (int i = 3; i <= n; i *= 5) {
+    a = 2 * b;
+    b *= 3 + c;
+    a--;
+}
+
+(8)for (int i = 1; i <= n; i += 5) {
+    b += a;
+    a--;
+    a = b + c + f;
+    b--;
+}
+
+(9)for (int i = 2; i <= n; i += 5) {
+    b += a;
+    a--;
+    a = b + c + f;
+}
+
+(10)for (int i = n; i <= 1; i--) {
+
+}
+
+(11)for (int i = n; i <= 1; i -= 3) {
+    b += a;
+    a--;
+    a = b + c + f;
+}
+
+(12)for (int i = n; i <= 1; i /= 3) {
+    a = 2 * b;
+    b *= 3 + c;
+}
+
+(13)for (int i = 1; i * i <= n; i++) {
+    a = 2 * b;
+    a = a + c + f;
+}
+
+(14)for (int i = 1; i * i * i <= n; i++) {
+    a = a + c + f;
+    b *= 3 + c;
+    b += a;
+}
+
+(15)for (int i = 1; i * i * i <= n; i++) {
+    b += a;
+    a--;
+}
+
+(16)for (int i = 1; i <= n; i--) {
+    a = 2 * b;
+}
+
+(17)for (int i = 1; i > 10; i++) {
+    a = 2 * b;
+    b *= 3 + c;
+}

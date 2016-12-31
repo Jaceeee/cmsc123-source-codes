@@ -1,0 +1,29 @@
+int right = getHeight(n->right);
+int left = getHeight(n->left);
+
+int getHeight(node *n){
+    if(n == NULL){
+        return 0;
+    }
+    else{
+        int left = 1 + getHeight(n->left);
+        int right = 1 + getHeight(n->right);
+
+        if(left > right){
+            return left;
+        } else if(right > left){
+            return right;
+        } else {
+            return 0;
+        }
+    }
+}
+
+int diff;
+if(right > left) {
+    diff = right - left;
+} else if(right < left){
+    diff = left - right;
+} else{
+    diff = 0;
+}
